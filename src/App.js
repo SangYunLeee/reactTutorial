@@ -1,11 +1,12 @@
 import './App.css';
-import DiceRoller from "./DiceRoller";
+import JokeList from './comp/JokeList/JokeList';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <DiceRoller />
+        <JokeList />
       </header>
     </div>
   );

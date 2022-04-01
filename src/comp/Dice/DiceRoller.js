@@ -13,8 +13,8 @@ export default class DiceRoller extends Component {
 	}
 
 	rolling = (e) => {
-      console.log(this.state.first);
-      this.setState({first:Math.floor(Math.random() * this.state.DiceMap.size) + 1});
+		console.log(this.state.first);
+      	this.setState({first:Math.floor(Math.random() * this.state.DiceMap.size) + 1});
 	}
 
 	render() {
